@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		962A51DC2BDB66C3002ACF02 /* PlantDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A51DB2BDB66C3002ACF02 /* PlantDataModel.swift */; };
+		962A51DE2BDB6745002ACF02 /* ReminderDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A51DD2BDB6745002ACF02 /* ReminderDataModel.swift */; };
+		962A51E02BDB6768002ACF02 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A51DF2BDB6768002ACF02 /* UserDataModel.swift */; };
+		962A51E22BDB679F002ACF02 /* TipsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A51E12BDB679F002ACF02 /* TipsDataModel.swift */; };
+		962A51E42BDB6828002ACF02 /* MyGardenDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A51E32BDB6828002ACF02 /* MyGardenDataModel.swift */; };
+		962A51E62BDB685C002ACF02 /* TaskDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A51E52BDB685C002ACF02 /* TaskDataModel.swift */; };
+		962A51E82BDB690A002ACF02 /* NotificationDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A51E72BDB690A002ACF02 /* NotificationDataModel.swift */; };
+		962A51EA2BDB7912002ACF02 /* LoginPageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A51E92BDB7912002ACF02 /* LoginPageDataModel.swift */; };
+		962A51EC2BDBAE6F002ACF02 /* IndependentDiscoverNewPlantsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A51EB2BDBAE6F002ACF02 /* IndependentDiscoverNewPlantsCollectionViewCell.swift */; };
+		962A51EE2BDBB45F002ACF02 /* IndependentDiscoverNewPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A51ED2BDBB45F002ACF02 /* IndependentDiscoverNewPlantViewController.swift */; };
+		966323EB2BDA28800026C33D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966323EA2BDA28800026C33D /* AppDelegate.swift */; };
+		966323ED2BDA28800026C33D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966323EC2BDA28800026C33D /* SceneDelegate.swift */; };
+		966323EF2BDA28800026C33D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966323EE2BDA28800026C33D /* ViewController.swift */; };
+		966323F22BDA28800026C33D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966323F02BDA28800026C33D /* Main.storyboard */; };
+		966323F42BDA28830026C33D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966323F32BDA28830026C33D /* Assets.xcassets */; };
+		966323F72BDA28830026C33D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966323F52BDA28830026C33D /* LaunchScreen.storyboard */; };
+		966323FF2BDA54D30026C33D /* MyGardenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966323FE2BDA54D30026C33D /* MyGardenViewController.swift */; };
+		966324012BDA64CC0026C33D /* CaringCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966324002BDA64CC0026C33D /* CaringCalendarViewController.swift */; };
+		966324032BDA6B800026C33D /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966324022BDA6B800026C33D /* LoginTableViewController.swift */; };
+		966324082BDA87DE0026C33D /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966324062BDA87DD0026C33D /* ReminderViewController.swift */; };
+		966324092BDA87DE0026C33D /* NewReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966324072BDA87DD0026C33D /* NewReminderTableViewController.swift */; };
+		9663240B2BDAC28D0026C33D /* NotificationHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663240A2BDAC28D0026C33D /* NotificationHomeCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		962A51DB2BDB66C3002ACF02 /* PlantDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDataModel.swift; sourceTree = "<group>"; };
+		962A51DD2BDB6745002ACF02 /* ReminderDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDataModel.swift; sourceTree = "<group>"; };
+		962A51DF2BDB6768002ACF02 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		962A51E12BDB679F002ACF02 /* TipsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsDataModel.swift; sourceTree = "<group>"; };
+		962A51E32BDB6828002ACF02 /* MyGardenDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGardenDataModel.swift; sourceTree = "<group>"; };
+		962A51E52BDB685C002ACF02 /* TaskDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDataModel.swift; sourceTree = "<group>"; };
+		962A51E72BDB690A002ACF02 /* NotificationDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDataModel.swift; sourceTree = "<group>"; };
+		962A51E92BDB7912002ACF02 /* LoginPageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageDataModel.swift; sourceTree = "<group>"; };
+		962A51EB2BDBAE6F002ACF02 /* IndependentDiscoverNewPlantsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndependentDiscoverNewPlantsCollectionViewCell.swift; sourceTree = "<group>"; };
+		962A51ED2BDBB45F002ACF02 /* IndependentDiscoverNewPlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndependentDiscoverNewPlantViewController.swift; sourceTree = "<group>"; };
+		966323E72BDA28800026C33D /* GardeningGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardeningGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966323EA2BDA28800026C33D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		966323EC2BDA28800026C33D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		966323EE2BDA28800026C33D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		966323F12BDA28800026C33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		966323F32BDA28830026C33D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		966323F62BDA28830026C33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		966323F82BDA28830026C33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966323FE2BDA54D30026C33D /* MyGardenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGardenViewController.swift; sourceTree = "<group>"; };
+		966324002BDA64CC0026C33D /* CaringCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaringCalendarViewController.swift; sourceTree = "<group>"; };
+		966324022BDA6B800026C33D /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		966324062BDA87DD0026C33D /* ReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReminderViewController.swift; path = ../../../../Downloads/App/App/ReminderViewController.swift; sourceTree = "<group>"; };
+		966324072BDA87DD0026C33D /* NewReminderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewReminderTableViewController.swift; path = ../../../../Downloads/App/App/NewReminderTableViewController.swift; sourceTree = "<group>"; };
+		9663240A2BDAC28D0026C33D /* NotificationHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966323E42BDA28800026C33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		966323DE2BDA28800026C33D = {
+			isa = PBXGroup;
+			children = (
+				966323E92BDA28800026C33D /* GardeningGuru */,
+				966323E82BDA28800026C33D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		966323E82BDA28800026C33D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966323E72BDA28800026C33D /* GardeningGuru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966323E92BDA28800026C33D /* GardeningGuru */ = {
+			isa = PBXGroup;
+			children = (
+				966324072BDA87DD0026C33D /* NewReminderTableViewController.swift */,
+				966324062BDA87DD0026C33D /* ReminderViewController.swift */,
+				966323EA2BDA28800026C33D /* AppDelegate.swift */,
+				966323EC2BDA28800026C33D /* SceneDelegate.swift */,
+				966323EE2BDA28800026C33D /* ViewController.swift */,
+				966323F02BDA28800026C33D /* Main.storyboard */,
+				962A51ED2BDBB45F002ACF02 /* IndependentDiscoverNewPlantViewController.swift */,
+				962A51EB2BDBAE6F002ACF02 /* IndependentDiscoverNewPlantsCollectionViewCell.swift */,
+				962A51DB2BDB66C3002ACF02 /* PlantDataModel.swift */,
+				962A51DD2BDB6745002ACF02 /* ReminderDataModel.swift */,
+				962A51DF2BDB6768002ACF02 /* UserDataModel.swift */,
+				962A51E12BDB679F002ACF02 /* TipsDataModel.swift */,
+				962A51E32BDB6828002ACF02 /* MyGardenDataModel.swift */,
+				962A51E92BDB7912002ACF02 /* LoginPageDataModel.swift */,
+				962A51E52BDB685C002ACF02 /* TaskDataModel.swift */,
+				962A51E72BDB690A002ACF02 /* NotificationDataModel.swift */,
+				9663240A2BDAC28D0026C33D /* NotificationHomeCollectionViewCell.swift */,
+				966324002BDA64CC0026C33D /* CaringCalendarViewController.swift */,
+				966324022BDA6B800026C33D /* LoginTableViewController.swift */,
+				966323FE2BDA54D30026C33D /* MyGardenViewController.swift */,
+				966323F32BDA28830026C33D /* Assets.xcassets */,
+				966323F52BDA28830026C33D /* LaunchScreen.storyboard */,
+				966323F82BDA28830026C33D /* Info.plist */,
+			);
+			path = GardeningGuru;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		966323E62BDA28800026C33D /* GardeningGuru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966323FB2BDA28830026C33D /* Build configuration list for PBXNativeTarget "GardeningGuru" */;
+			buildPhases = (
+				966323E32BDA28800026C33D /* Sources */,
+				966323E42BDA28800026C33D /* Frameworks */,
+				966323E52BDA28800026C33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GardeningGuru;
+			productName = GardeningGuru;
+			productReference = 966323E72BDA28800026C33D /* GardeningGuru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966323DF2BDA28800026C33D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					966323E62BDA28800026C33D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 966323E22BDA28800026C33D /* Build configuration list for PBXProject "GardeningGuru" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 966323DE2BDA28800026C33D;
+			productRefGroup = 966323E82BDA28800026C33D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966323E62BDA28800026C33D /* GardeningGuru */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966323E52BDA28800026C33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966323F72BDA28830026C33D /* LaunchScreen.storyboard in Resources */,
+				966323F42BDA28830026C33D /* Assets.xcassets in Resources */,
+				966323F22BDA28800026C33D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966323E32BDA28800026C33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962A51E02BDB6768002ACF02 /* UserDataModel.swift in Sources */,
+				962A51EC2BDBAE6F002ACF02 /* IndependentDiscoverNewPlantsCollectionViewCell.swift in Sources */,
+				962A51E22BDB679F002ACF02 /* TipsDataModel.swift in Sources */,
+				966324012BDA64CC0026C33D /* CaringCalendarViewController.swift in Sources */,
+				966323EF2BDA28800026C33D /* ViewController.swift in Sources */,
+				966324082BDA87DE0026C33D /* ReminderViewController.swift in Sources */,
+				962A51DC2BDB66C3002ACF02 /* PlantDataModel.swift in Sources */,
+				966323FF2BDA54D30026C33D /* MyGardenViewController.swift in Sources */,
+				962A51EE2BDBB45F002ACF02 /* IndependentDiscoverNewPlantViewController.swift in Sources */,
+				962A51DE2BDB6745002ACF02 /* ReminderDataModel.swift in Sources */,
+				962A51E82BDB690A002ACF02 /* NotificationDataModel.swift in Sources */,
+				962A51E42BDB6828002ACF02 /* MyGardenDataModel.swift in Sources */,
+				966323EB2BDA28800026C33D /* AppDelegate.swift in Sources */,
+				966323ED2BDA28800026C33D /* SceneDelegate.swift in Sources */,
+				9663240B2BDAC28D0026C33D /* NotificationHomeCollectionViewCell.swift in Sources */,
+				962A51E62BDB685C002ACF02 /* TaskDataModel.swift in Sources */,
+				966324092BDA87DE0026C33D /* NewReminderTableViewController.swift in Sources */,
+				962A51EA2BDB7912002ACF02 /* LoginPageDataModel.swift in Sources */,
+				966324032BDA6B800026C33D /* LoginTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		966323F02BDA28800026C33D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966323F12BDA28800026C33D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		966323F52BDA28830026C33D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966323F62BDA28830026C33D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		966323F92BDA28830026C33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		966323FA2BDA28830026C33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		966323FC2BDA28830026C33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8D6QYUV6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GardeningGuru/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.GardeningGuru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		966323FD2BDA28830026C33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8D6QYUV6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GardeningGuru/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.GardeningGuru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966323E22BDA28800026C33D /* Build configuration list for PBXProject "GardeningGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966323F92BDA28830026C33D /* Debug */,
+				966323FA2BDA28830026C33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966323FB2BDA28830026C33D /* Build configuration list for PBXNativeTarget "GardeningGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966323FC2BDA28830026C33D /* Debug */,
+				966323FD2BDA28830026C33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 966323DF2BDA28800026C33D /* Project object */;
+}
